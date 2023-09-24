@@ -1,0 +1,80 @@
+:root {
+  --background-surface: #efefef;
+  --primaryColor: #43281c;
+  --secondaryColor: #333d29;
+  --color3: #7f4f24;
+  --color4: #b08968;
+  --color5: #ddb892;
+  --color6: #ede0d4;
+  --highlight: #fbf2c6;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body > header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+body > main {
+  margin: auto;
+  margin-top: 60px;
+  max-width: 500px;
+}
+
+h1 {
+  background-color: var(--primaryColor);
+  color: white;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0 5px 0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+ul {
+  display: none;
+  padding: 0;
+}
+
+a.navlink {
+  color: var(--highlight);
+  padding: 8px;
+  text-decoration: none;
+}
+
+#linkHome {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+#linkOrder {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+section.page {
+  display: none;
+}
+
+#badge {
+  padding: 4px;
+  background-color: red;
+  border-radius: 15px;
+  width: 10px;
+  text-align: center;
+  font-size: x-small;
+  color: white;
+  position: absolute;
+  right: 5px;
+  top: 6px;
+}
